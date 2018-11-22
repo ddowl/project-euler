@@ -1,0 +1,10 @@
+[package]
+name = "rust"
+version = "0.1.0"
+authors = ["Drew Dowling <drewdowling37@gmail.com>"]
+
+[dependencies]
+
+[dev-dependencies]
+cargo-watch = "^7.0.7"
+pretty_assertions = "^0.5.1"
