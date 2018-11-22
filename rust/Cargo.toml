@@ -22,3 +22,7 @@ path = "src/lib.rs"
 [[bin]]
 name = "p001"
 path = "src/p001.rs"
+
+[[bin]]
+name = "p002"
+path = "src/p002.rs"

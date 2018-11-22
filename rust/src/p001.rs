@@ -11,6 +11,7 @@ fn given_factors() -> HashSet<u32> {
     [3, 5].iter().cloned().collect()
 }
 
+#[allow(dead_code)]
 fn main() {
     println!("{}", sum_of_multiples_below(given_factors(), 1000));
 }
