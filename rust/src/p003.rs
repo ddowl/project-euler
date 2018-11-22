@@ -1,9 +1,18 @@
+use std::collections::HashSet;
+
+// Try trial division first
 fn largest_prime(n: usize) -> usize {
-    *primes(n).iter().max().expect(&format!("No primes found for {}!", n))
+    *factors(&n).iter()
+        .filter(|f| is_prime(*f))
+        .max().expect(&format!("No prime factors found for {}!", n))
 }
 
-fn primes(n: usize) -> Vec<usize> {
-    vec!()
+fn factors(n: &usize) -> HashSet<usize> {
+    HashSet::new()
+}
+
+fn is_prime(n: &usize) -> bool {
+    false
 }
 
 
