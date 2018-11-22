@@ -14,3 +14,11 @@ pretty_assertions = "*"
 unreachable = "1.0.0"
 quickcheck = "*"
 #quickcheck_macros = "*"
+
+[lib]
+name = "lib"
+path = "src/lib.rs"
+
+[[bin]]
+name = "p001"
+path = "src/p001.rs"
