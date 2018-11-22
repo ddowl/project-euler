@@ -1,10 +1,16 @@
 [package]
-name = "rust"
+name = "project-euler-rust"
 version = "0.1.0"
 authors = ["Drew Dowling <drewdowling37@gmail.com>"]
+autobins = false
 
 [dependencies]
+rand = "*"
+num = "*"
 
 [dev-dependencies]
-cargo-watch = "^7.0.7"
-pretty_assertions = "^0.5.1"
+cargo-watch = "*"
+pretty_assertions = "*"
+unreachable = "1.0.0"
+quickcheck = "*"
+#quickcheck_macros = "*"
