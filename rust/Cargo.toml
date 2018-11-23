@@ -7,6 +7,7 @@ autobins = false
 [dependencies]
 rand = "*"
 num = "*"
+primal = "*"
 
 [dev-dependencies]
 cargo-watch = "*"
@@ -26,3 +27,7 @@ path = "src/p001.rs"
 [[bin]]
 name = "p002"
 path = "src/p002.rs"
+
+[[bin]]
+name = "p003"
+path = "src/p003.rs"
