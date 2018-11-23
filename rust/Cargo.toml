@@ -31,3 +31,11 @@ path = "src/p002.rs"
 [[bin]]
 name = "p003"
 path = "src/p003.rs"
+
+[[bin]]
+name = "p004"
+path = "src/p004.rs"
+
+[[bin]]
+name = "p007"
+path = "src/p007.rs"

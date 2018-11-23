@@ -1,9 +1,8 @@
 extern crate primal;
 use std::collections::HashSet;
-use self::primal::Sieve;
 
 fn largest_prime_primal(n: usize) -> usize {
-    let sieve = Sieve::new((n as f64).sqrt().ceil() as usize);
+    let sieve = primal::Sieve::new((n as f64).sqrt().ceil() as usize);
     let factors = sieve.factor(n).unwrap();
     *factors.iter()
         .map(|(p, _)| p)
